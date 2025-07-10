@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Smart restaurant</string>
+    <string name="smart_restaurant_makes_smart_lifestyle">Smart restaurant make smart lifestyle</string>
+    <string name="design_by_ankush_patel">Design by:-Ankush patel</string>
+    <string name="enjoy_restaurant_quality_like_meal_at_home">Enjoy Restaurant Quality Meals
+at your doorstep</string>
+    <string name="next">Next</string>
+    <string name="login_in_your_account">Login in your Account</string>
+    <string name="email_or_password">Email or phone No.</string>
+    <string name="password">Password</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="don_t_have_account">Don\'t have account</string>
+    <string name="smart_restaurant">SMART RESTAURANT</string>
+    <string name="sign_up_here">Sign up here</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="sign_up_with">Sign up With</string>
+    <string name="or">Or</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID_FROM_FIREBASE</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an Account</string>
+    <string name="choose_your_location">Choose your Location</string>
+    <string name="choose_location">Choose location</string>
+    <string name="to_provide_you_with_the_best_dining_experience_we_need_your_permission_to_access_your_device_s_location_by_enabling_location_services_we_can_offer_personalized_restaurant_recommendations_accurate_delivery_estimates_and_ensure_a_seamless_food_delivery_experience">To provide you with the best dining experience, we need your permission to access your device\'s location. By enabling location services, we can offer personalized restaurant recommendations, accurate delivery estimates, and ensure a seamless food delivery experience.</string>
+    <string name="explore_you_tasty_food_in_one_tap">Explore you tasty food in one tap</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="search">Search</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="smartrestaurantsneeds">A Smart Restaurant integrates technology into its operations to improve efficiency, customer experience, and business management. It uses mobile apps, AI, IoT (Internet of Things), and automation to streamline ordering, payments, kitchen management, and customer service.</string>
+    <string name="featuresofrestuarnts">But what if we told you that all you need to do is to install our inovative app Smart restaurants app, And order the delicious food from you fav restaurnts at you doorstep in just on click without visiting there.the delivery partner is delivered you food in just mintues. That is what Smart restaurnst is all about, just like the name sounds.</string>
+    <string name="costumercentric">Smart restaurants prioritize customer-centric services by integrating technology, personalization, and convenience to enhance the dining experience. From AI-powered food recommendations based on past orders to contactless ordering and payment options, these restaurants ensure a seamless experience. Customers can reserve tables online, order via mobile apps or QR codes, and track their food delivery in real-time. Loyalty programs and personalized discounts make dining more rewarding, while smart feedback systems help restaurants continuously improve their services.</string>
+    <string name="thoughtsofinovation">The evolution of smart restaurants begins with a simple thought—how can technology enhance the dining experience? This idea drives innovation, leading to the integration of AI, IoT, and automation in restaurant services. From self-ordering kiosks to AI-driven menu recommendations, every innovation stems from understanding customer needs and optimizing operations. Smart kitchens use data-driven insights to improve efficiency, while robotic servers and automated cooking stations redefine food preparation.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="700dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        Congrats \nyour order is Placed"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/red"
+        android:fontFamily="cursive"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/congrats"
+        android:layout_gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gohomebutton"
+        android:layout_width="157dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="220dp"
+        android:text="Go Home"
+        android:fontFamily="@font/almendra"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/gotohomebuttonshape"
+        android:layout_marginStart="120dp"
+        />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+</FrameLayout>
