@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.SmartRestaurant" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/lightblue</item>
+        <item name="colorSecondary">@color/green</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/grey</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

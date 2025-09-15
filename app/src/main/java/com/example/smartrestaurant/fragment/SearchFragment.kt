@@ -23,12 +23,12 @@ class SearchFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentSearchBinding.inflate(inflater, container, false)
-        retriveMenuItem()
+        retrieveMenuItem()
         setupSearchView()
         return binding.root
     }
 
-    private fun retriveMenuItem() {
+    private fun retrieveMenuItem() {
         database = FirebaseDatabase.getInstance()
         val foodReference: DatabaseReference = database.reference.child("menu")
         foodReference.addListenerForSingleValueEvent(object : ValueEventListener {
@@ -51,10 +51,10 @@ class SearchFragment : Fragment() {
 
     private fun showAllMenu() {
         val filteredMenuItem = ArrayList(originalMenuItems)
-        setadapter(filteredMenuItem)
+        setAdapter(filteredMenuItem)
     }
 
-    private fun setadapter(filteredMenuItem: List<MenuItem>) {
+    private fun setAdapter(filteredMenuItem: List<MenuItem>) {
         adapter = MenuAdapter(filteredMenuItem, requireContext())
         binding.menuRecycleview.layoutManager = LinearLayoutManager(requireContext())
         binding.menuRecycleview.adapter = adapter
@@ -73,10 +73,11 @@ class SearchFragment : Fragment() {
             }
         })
     }
+
     private fun filterMenuItems(query: String?) {
         val filteredMenuItems = originalMenuItems.filter {
             it.foodName?.contains(query ?: "", ignoreCase = true) == true
         }
-        setadapter(filteredMenuItems)
+        setAdapter(filteredMenuItems)
     }
 }
