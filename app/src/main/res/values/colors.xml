@@ -3,11 +3,19 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#F0ECEC</color>
+
     <color name="red">#E92C2C</color>
     <color name="lightred">#CC5E5E</color>
     <color name="lightblue">#6E89E9</color>
     <color name="hotred">#5F2420</color>
     <color name="blue">#4478E2</color>
+
+    <!-- Theme colors -->
+    <color name="backgroundColor">@color/white</color>
+    <color name="primaryTextColor">@color/black</color>
+    <color name="secondaryTextColor">@color/grey</color>
+
+    <!-- Gradient -->
     <color name="startColor">#DB4F45</color>
     <color name="endColor">#15BE77</color>
     <color name="green">#4DA650</color>

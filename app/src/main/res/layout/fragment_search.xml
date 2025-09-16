@@ -33,9 +33,11 @@
         android:queryBackground="@android:color/transparent"
         android:queryHint="Search what you Craving for"
         android:searchIcon="@drawable/search"
+        style="@style/CustomSearchView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
 
     <TextView
         android:id="@+id/textView19"
