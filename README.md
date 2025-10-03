@@ -64,4 +64,4 @@ This app simplifies the process with:
 
 1. Clone the repository:  
 ```bash
-git clone <user-app-repo-url>
+git clone <[user-app-repo-url](https://github.com/AnkushPatel001/Smart_restaurant01.git)>
